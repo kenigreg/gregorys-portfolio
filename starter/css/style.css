@@ -9,6 +9,47 @@ body {
   line-height: 1.5;
 }
 
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgb(77, 76, 76);
+}
+
+.heading {
+  font-size: 1.5rem;
+  background-color: lightseagreen;
+  padding-left: 40px;
+  padding-right: 10px;
+  flex: 30%
+  
+}
+
+ul {
+  flex: 60%
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 5px;
+  
+}
+
+a {
+  color: teal;
+  font-size: 15px;
+}
+
+@media (max-width: 800px) {
+  .heading, ul {
+    flex: 100%;
+  }
+}
+
+
 h1,
 h2,
 h3,
