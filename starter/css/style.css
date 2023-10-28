@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* applying styling to the body tag*/
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ body {
   line-height: 1.5;
 }
 
-
+/* applying styling to the header tag*/
 header {
   display: flex;
   justify-content: flex-end;
@@ -18,6 +19,7 @@ header {
   background-color: rgb(77, 76, 76);
 }
 
+/* applying styling to the H1 tag*/
 .heading {
   font-size: 1.5rem;
   background-color: lightseagreen;
@@ -27,10 +29,12 @@ header {
   
 }
 
+/* applying styling to the ul tag*/
 ul {
   flex: 60%
 }
 
+/* applying styling to the list tags*/
 header li {
   list-style: none;
   display: inline-block;
@@ -38,16 +42,29 @@ header li {
   
 }
 
+/* applying color and font size to the anchor tags*/
 a {
   color: teal;
   font-size: 15px;
 }
 
+/* applying styling to the media query and setting the viewport*/
 @media (max-width: 800px) {
   .heading, ul {
     flex: 100%;
   }
 }
+
+/* applying styling to the hero section*/
+.hero-banner {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 
 
 h1,
