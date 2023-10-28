@@ -22,6 +22,7 @@ header {
 /* applying styling to the H1 tag*/
 .heading {
   font-size: 1.5rem;
+  text-align: left;
   background-color: lightseagreen;
   padding-left: 40px;
   padding-right: 10px;
@@ -63,6 +64,16 @@ a {
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.hero-div h2 {
+  float: right;
+  background-color: rgb(149, 240, 236);
+  margin-right: 50px;
+  margin-top: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgb(47, 46, 46);
 }
 
 
