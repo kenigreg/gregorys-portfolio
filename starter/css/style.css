@@ -8,6 +8,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 
 /* applying styling to the header tag*/
@@ -81,9 +82,10 @@ a {
 .page-wrapper {
   display: grid;
   grid-template-rows: auto;
-  margin-left: 100px;
+  row-gap: 40px;
+  margin-left: 80px;
   margin-right: 50px;
-  color: rgb(47, 46, 46);
+  color: darkslategrey;
   text-align: justify;
 }
 
@@ -100,11 +102,25 @@ a {
 /*setting the CSS Grid Column Layout for h2 tags and contents*/
 .page-section {
   display: inline-grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 10% 90%;
   grid-template-areas: 
   'myItems myPlaces'
   'myItems myPlaces'
   'myItems myPlaces';
+}
+
+/*setting the border Layouts for the h2 tags */
+.grid-items {
+  border-right-style: solid;
+  border-width: 2px;
+  border-color: darkslategrey;
+  text-align: right;
+  padding-right: 5px;
+}
+
+/*setting the padding for the h2 contents*/
+.grid-places {
+  padding-left: 20px;
 }
 
 h1,
