@@ -101,7 +101,7 @@ a {
 
 /*setting the CSS Grid Column Layout for h2 tags and contents*/
 .page-section {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 10% 90%;
   grid-template-areas: 
   'myItems myPlaces'
@@ -122,6 +122,52 @@ a {
 .grid-places {
   padding-left: 20px;
 }
+
+/*initializing the CSS Grid layout for the grid-mern class elements*/
+.mern-stack {
+  grid-area: mernStack;
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+.led-wall {
+  grid-area: ledWall;
+  height: 150px;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.calculator {
+  grid-area: calculator;
+  height: 150px;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.pastel-puzzels {
+  grid-area: pastelPuzzels;
+  height: 150px;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.run-buddy {
+  grid-area: runBuddy;
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+/*setting the CSS Grid layout for the grid-mern class elements*/
+#work .grid-places {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  'mernStack mernStack'
+  'ledWall calculator'
+  'pastelPuzzels runBuddy';
+  gap: 10px;
+}
+
+
+
+
 
 h1,
 h2,
