@@ -126,33 +126,50 @@ a {
 /*initializing the CSS Grid layout for the grid-mern class elements*/
 .mern-stack {
   grid-area: mernStack;
-  height: 300px;
+  height: 400px;
   width: 100%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightseagreen;
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
 .led-wall {
   grid-area: ledWall;
   height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightseagreen;
   background-image: url("../images/02-portfolio-1.jpg");
 }
 
 .calculator {
   grid-area: calculator;
   height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightseagreen;
   background-image: url("../images/02-portfolio-2.jpg");
 }
 
 .pastel-puzzels {
   grid-area: pastelPuzzels;
   height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightseagreen;
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
 .run-buddy {
   grid-area: runBuddy;
+  height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightseagreen;
   background-image: url("../images/02-run-buddy.jpg");
 }
+
 
 /*setting the CSS Grid layout for the grid-mern class elements*/
 #work .grid-places {
@@ -165,7 +182,29 @@ a {
   gap: 10px;
 }
 
+/* Applied CSS styling to the h3 elements of the Work section*/
+.mern-stack h3 {
+    float: left;
+    background-color: rgb(149, 240, 236);
+    margin-top: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(47, 46, 46);
+  }
 
+  .seo {
+    font-size: 10px;
+  }
+  
+#other-work h3 {
+    float: left;
+    background-color: rgb(149, 240, 236);
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(47, 46, 46);
+
+}
 
 
 
