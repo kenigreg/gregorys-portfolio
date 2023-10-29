@@ -66,6 +66,7 @@ a {
   background-position: center;
 }
 
+/* applyed styling to the h2 tag of the hero section */
 .hero-div h2 {
   float: right;
   background-color: rgb(149, 240, 236);
