@@ -212,9 +212,30 @@ a {
   border-width: 3px;
   border-color: lightseagreen;
   margin-left: 300px;
-  
+}
+
+/* applying styling to the list tags of the Contact section*/
+
+#contact-me ul {
+  margin-left: 250px;
+  align-content: space-between;
+
 
 }
+.grid-places li {
+  list-style: none;
+  display: inline-grid;
+  padding: 0 20px;
+}
+
+/* applying color and font size to the anchor tags*/
+a {
+  color: teal;
+  font-size: 15px;
+}
+
+
+
 
 h1,
 h2,
