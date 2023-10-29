@@ -88,6 +88,24 @@ a {
 }
 
 
+/* initializing the CSS Grid columns for the h2 tags and contents */
+.page-section .grid-items {
+  grid-area: myItems;
+}
+
+.page-section .grid-places {
+  grid-area: myPlaces;
+}
+
+/*setting the CSS Grid Column Layout for h2 tags and contents*/
+.page-section {
+  display: inline-grid;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 
+  'myItems myPlaces'
+  'myItems myPlaces'
+  'myItems myPlaces';
+}
 
 h1,
 h2,
