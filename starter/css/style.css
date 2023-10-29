@@ -106,7 +106,7 @@ a {
   grid-template-areas: 
   'myItems myPlaces'
   'myItems myPlaces'
-  'myItems myPlaces';
+  'myItems myPlaces'
 }
 
 /*setting the border Layouts for the h2 tags */
@@ -206,7 +206,15 @@ a {
 
 }
 
+/* Applied CSS styling to the image element of the Resume section*/
+.my-resume img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightseagreen;
+  margin-left: 300px;
+  
 
+}
 
 h1,
 h2,
