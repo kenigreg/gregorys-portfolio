@@ -22,21 +22,21 @@ nav {
 /* applying styling to the header tag*/
 header {
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 10% auto auto auto auto 25%;
   grid-template-areas:
-  'myHeader myNav';
+  'myHeader auto auto auto auto myNav';
   padding-right: 5px;
   background-color: rgb(77, 76, 76);
 }
 
 nav ul li {
-  display: inline-grid;
-  float: right;
+  display: grid;
+  float: left;
   padding-right: 20px;
 }
 
 nav ul {
-  margin-right: 50px;
+  margin-right: 10px;
   font-weight: 700;
 }
 
@@ -45,7 +45,6 @@ nav ul {
   font-size: 1.5rem;
   background-color: lightseagreen;
   padding-left: 40px;
-  padding-right: 0;
   margin-top: 10px;
   margin-bottom: 5px;
 }
