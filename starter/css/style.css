@@ -11,35 +11,49 @@ body {
   margin-bottom: 50px;
 }
 
+header h1 {
+  grid-area: myHeader;
+}
+
+nav {
+  grid-area: myNav;
+
+}
 /* applying styling to the header tag*/
 header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px 50px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-areas:
+  'myHeader myNav';
+  padding-right: 5px;
   background-color: rgb(77, 76, 76);
+}
+
+nav ul li {
+  display: inline-grid;
+  float: right;
+  padding-right: 20px;
+}
+
+nav ul {
+  margin-right: 50px;
+  font-weight: 700;
 }
 
 /* applying styling to the H1 tag*/
 .heading {
   font-size: 1.5rem;
-  text-align: left;
   background-color: lightseagreen;
   padding-left: 40px;
-  padding-right: 10px;
-  flex: 30%
-  
+  padding-right: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-/* applying styling to the ul tag*/
-ul {
-  flex: 60%
-}
 
 /* applying styling to the list tags*/
 header li {
   list-style: none;
-  display: inline-block;
   padding: 0 5px;
   
 }
@@ -47,15 +61,8 @@ header li {
 /* applying color and font size to the anchor tags*/
 a {
   color: teal;
-  font-size: 15px;
 }
 
-/* applying styling to the media query and setting the viewport*/
-@media (max-width: 800px) {
-  .heading, ul {
-    flex: 100%;
-  }
-}
 
 /* applying styling to the hero section*/
 .hero-banner {
