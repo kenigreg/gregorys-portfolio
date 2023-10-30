@@ -11,6 +11,7 @@ body {
   margin-bottom: 50px;
 }
 
+/*initiallizing the CSS Grid for the nav bar*/
 header h1 {
   grid-area: myHeader;
 }
@@ -25,7 +26,7 @@ header {
   grid-template-columns: 10% auto auto auto auto 25%;
   grid-template-areas:
   'myHeader auto auto auto auto myNav';
-  padding-right: 5px;
+  padding-right: 0;
   background-color: rgb(77, 76, 76);
 }
 
@@ -42,7 +43,7 @@ nav ul {
 
 /* applying styling to the H1 tag*/
 .heading {
-  font-size: 1.5rem;
+  font-size: 30px;
   background-color: lightseagreen;
   padding-left: 40px;
   margin-top: 10px;
@@ -129,9 +130,13 @@ a {
   padding-left: 20px;
 }
 
-/*initializing the CSS Grid layout for the grid-mern class elements*/
+/*initializing the CSS Grid layout for the mern-stack class elements*/
 .mern-stack {
   grid-area: mernStack;
+}
+
+/* Applying CSS styling to the images in the portfolio section */
+.mern-stack2 {
   height: 400px;
   width: 100%;
   border-style: solid;
@@ -140,8 +145,13 @@ a {
   background-image: url("../images/02-portfolio-4.jpg");
 }
 
+/*initializing the CSS Grid layout for the led-wall class elements*/
 .led-wall {
   grid-area: ledWall;
+}
+
+/* Applying CSS styling to the images in the portfolio section */
+.led-wall2 {
   height: 150px;
   border-style: solid;
   border-width: 3px;
@@ -149,8 +159,13 @@ a {
   background-image: url("../images/02-portfolio-1.jpg");
 }
 
+/*initializing the CSS Grid layout for the calculator class elements*/
 .calculator {
   grid-area: calculator;
+}
+
+/* Applying CSS styling to the images in the portfolio section */
+.calculator2 {
   height: 150px;
   border-style: solid;
   border-width: 3px;
@@ -158,8 +173,13 @@ a {
   background-image: url("../images/02-portfolio-2.jpg");
 }
 
+/*initializing the CSS Grid layout for the pastel-puzzels class elements*/
 .pastel-puzzels {
   grid-area: pastelPuzzels;
+}
+
+/* Applying CSS styling to the images in the portfolio section */
+.pastel-puzzels2 {
   height: 150px;
   border-style: solid;
   border-width: 3px;
@@ -167,8 +187,12 @@ a {
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
+/*initializing the CSS Grid layout for the run-buddy class elements*/
 .run-buddy {
   grid-area: runBuddy;
+}
+
+.run-buddy2 {
   height: 150px;
   border-style: solid;
   border-width: 3px;
