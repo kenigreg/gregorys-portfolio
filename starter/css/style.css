@@ -23,7 +23,7 @@ nav {
 /* applying styling to the header tag*/
 header {
   display: grid;
-  grid-template-columns: 10% auto auto auto auto 25%;
+  grid-template-columns: 10% auto auto auto auto 30%;
   grid-template-areas:
   'myHeader auto auto auto auto myNav';
   padding-right: 0;
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul {
-  margin-right: 10px;
+  margin-right: 20px;
   font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ nav ul {
 .heading {
   font-size: 30px;
   background-color: lightseagreen;
-  padding-left: 40px;
+  padding-left: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -274,8 +274,7 @@ a {
 @media only screen and (max-width: 1000px) {
   header {
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-areas:
-    'myHeader auto auto auto myNav myNav';
+    grid-template-areas: 'myHeader auto auto auto myNav myNav';
   }
 
   nav ul li {
