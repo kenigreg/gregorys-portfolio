@@ -26,7 +26,7 @@ The projects I have developed includes the following -
 
 The following mock-up shows the web development page and the different projects I have undertaken:
 
-![portfolio demo](/images/01-css-challenge-demo.gif)
+![portfolio demo](/images/screencapture-webpage.png)
 
 ## Deployment
 
