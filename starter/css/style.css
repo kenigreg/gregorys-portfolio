@@ -272,11 +272,6 @@ a {
 
 /* applying media query to the CSS styling*/
 @media only screen and (max-width: 1000px) {
-  header {
-    grid-template-columns: auto auto auto auto auto auto;
-    grid-template-areas: 'myHeader auto auto auto myNav myNav';
-  }
-
   nav ul li {
     float: left;
     padding-right: auto;
